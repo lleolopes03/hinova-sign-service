@@ -12,7 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/v1/contrato")
+@RequestMapping("/api/v1/contratos")
 @RequiredArgsConstructor
 @Tag(name = "Contratos", description = "Gerenciamento de contratos e assinaturas")
 public class ContratoController {
